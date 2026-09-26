@@ -5,7 +5,7 @@ Client Python leggero e senza dipendenze per il [gateway HTTP di SubitoSMS](http
 ## Installazione
 
 ```bash
-pip install subitosms
+pip install subitosms-sdk
 ```
 
 ## Invio di un SMS
@@ -60,4 +60,3 @@ Non ritentare automaticamente un invio quando non sai se il gateway lo abbia ric
 ## Licenza
 
 MIT. Vedi [LICENSE](LICENSE).
-

@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "subitosms"
+name = "subitosms-sdk"
 version = "0.1.0"
 description = "Client Python leggero e senza dipendenze per le API HTTP di SubitoSMS.it."
 readme = "README.md"
