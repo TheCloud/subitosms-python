@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subitosms"
+version = "0.1.0"
+description = "Client Python leggero e senza dipendenze per le API HTTP di SubitoSMS.it."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  {name = "SubitoSMS", email = "support@subitosms.it"},
+]
+keywords = ["sms", "subitosms", "gateway", "api"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://www.subitosms.it/"
+Documentation = "https://www.subitosms.it/gateway_sms_http.php"
+Repository = "https://github.com/TheCloud/subitosms_client"
+Issues = "https://github.com/TheCloud/subitosms_client/issues"
+
+[tool.setuptools.packages.find]
+include = ["subitosms*"]
